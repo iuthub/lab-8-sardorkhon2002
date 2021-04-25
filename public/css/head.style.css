@@ -1,0 +1,122 @@
+* {
+    font-family:Nunito serif;
+}
+
+body {
+    background-color: #fefbd8;
+}
+
+.container {
+    width: 80%;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+input[type='submit'], textarea, input[type='text'], input[type='password'], .btn {
+    border: 0px solid blue;
+    font-size: 18px;
+    background-color: #f1eeee;
+    color: black;
+    padding: 5px;
+    margin:5px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100px;
+    box-sizing: border-box;
+    font-family: Nunito serif;
+}
+
+input[type='text'], input[type='password'] {
+    background-color: white;
+    text-align: left;
+    width: 150px;
+    font-family: Nunito serif;
+}
+
+.main {
+    margin: 5px;
+    padding: 5px 0px;
+}
+
+.nav {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    padding: 5px;
+    background-color: #ffff26;
+    border: 0px solid grey;
+}
+
+.navitem {
+    margin: 5px;
+}
+.articledit {
+    background-color: #fffc22;
+    border: 0px solid grey;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.article {
+    background-color: #abdbab;
+    border: 0px solid grey;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.info {
+    border-radius: 10px;
+    background-color: #ccff99;
+    border: 1px solid #336600;
+    box-shadow: 3px 3px 5px 0px rgba(189,179,189,1);
+}
+
+.error {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #ff9999;
+    border: 1px solid #ff0000;
+    box-shadow: 3px 3px 5px 0px rgba(189,179,189,1);
+}
+
+.article:first-child {
+    margin-top: 0px;
+}
+
+.article-header {
+    padding: 5px;
+}
+
+.article-header h2 {
+    margin: 5px 0px;
+}
+
+.article-body {
+    margin: 5px 0px;
+    padding: 5px;
+    font-family: Nunito serif;
+    font-size:20px;
+}
+.article-footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.title
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.bodyy
+
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Times New Roman;
+}
+
